@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Welcome to Ably Engineering - Open for All!"
+date: 2021-11-03 02:48:26 +0000
+categories: general
+---
+
+Hello!
+
+This site is incubating at the moment and we're still finding our feet in terms of how we use Jekyll and GitHub Pages.
+
+We may decide to not use the blog feature, given Ably already has a public blog. But, equally, we may decide to use the blog capability within this site for Ably Engineering focussed content. This is yet to be decided.
