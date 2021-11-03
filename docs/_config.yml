@@ -34,6 +34,8 @@ theme: minima
 plugins:
   - jekyll-feed
 permalink: /:categories/:year/:month/:day/:slug
+safe: true
+strict_front_matter: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
