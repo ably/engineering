@@ -4,7 +4,7 @@ _[Ably](https://ably.com) is the platform that powers synchronized digital exper
 
 ## Overview
 
-This repository is being incubated by the SDK Team at Ably as our new, open home for communicating our ways of working here.
+This repository is being incubated by the SDK Team at Ably as our new, open home for communicating our ways of working.
 
 It deployes automatically, from the `main` branch, via
 [GitHub Pages](https://pages.github.com/)
