@@ -3,6 +3,11 @@ layout: page
 title: "Experts: Expectations"
 ---
 
+## Definitions
+
+- **work session**: This should be interpreted as "every time you come online after a period of significant break lasting more than a few hours". There is flexibility to bend this definition but that will depend on the needs of the team you are working with.
+- **via Slack**: This will depend on the team you are working with, however the appropriate channel to feed your updates into will be clearly indicated to you by us.
+
 ## Your Responsibilities
 
 ### Communication
@@ -42,8 +47,3 @@ We mention it here because we want to explicitly acknowledge that we're all huma
 This means that we know we'll all make mistakes at times, or perhaps not quite match up to expectations all of the time. :heart:
 
 In the same way that we will do our best to remain flexible where possible and understand when things aren't going as well as they could be for you in respect of matching up to your responsibilities, we expect the same from you. We are a fast growing company with individuals who, day-to-day, have to wear many hats and spin many plates at times. Please bear with us if we can't always match up to our responsibilities as outlined above. :smile:
-
-## Definitions
-
-- **work session**: This should be interpreted as "every time you come online after a period of significant break lasting more than a few hours". There is flexibility to bend this definition but that will depend on the needs of the team you are working with.
-- **via Slack**: This will depend on the team you are working with, however the appropriate channel to feed your updates into will be clearly indicated to you by us.
