@@ -20,12 +20,12 @@ At the start of each work session, publish a self-stand-up via Slack, to include
 You must flag via Slack when you are running low on work.
 We'll then work with you to line up the next series of Jira tickets.
 
-### Order, Scope, Venue and Commitment
+### Commitment, Order, Scope and Venue
 
+- Commit to the minimum number of regular hours you have agreed with us
 - Work on Jira tickets only, in priority order
 - Update them with comments and by moving them across columns
 - Where you're working on something open source, prefer to interact with linked issues via GitHub's interface - this 'Github First' approach is important to some teams (for example, the SDK Team)
-- Commit to the minimum number of regular hours you have agreed with us
 
 ## Ably's Responsibilities
 
