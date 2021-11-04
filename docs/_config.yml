@@ -28,10 +28,6 @@ domain: ably.github.io
 url: https://ably.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ablyrealtime
 github_username:  ably
-
-# Build settings
-plugins:
-  - jekyll-feed
 permalink: /:categories/:year/:month/:day/:slug
 safe: true
 strict_front_matter: true
