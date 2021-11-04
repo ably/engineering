@@ -17,6 +17,9 @@ At the start of each work session, publish a self-stand-up via Slack, to include
 - What you achieved last session
 - What Jira ticket you will be working on this session
 
+Attend the regular, in-person stand-up calls, as agreed with us.
+These are typically held weekly.
+
 You must flag via Slack when you are running low on work.
 We'll then work with you to line up the next series of Jira tickets.
 
