@@ -30,7 +30,6 @@ twitter_username: ablyrealtime
 github_username:  ably
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 permalink: /:categories/:year/:month/:day/:slug
