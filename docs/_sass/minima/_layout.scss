@@ -170,11 +170,6 @@
   }
 }
 
-
-
-/**
- * Page content
- */
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
@@ -184,34 +179,6 @@
   @include relative-font-size(2);
 }
 
-.post-list-heading {
-  @include relative-font-size(1.75);
-}
-
-.post-list {
-  margin-left: 0;
-  list-style: none;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
-}
-
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-}
-
-.post-link {
-  display: block;
-  @include relative-font-size(1.5);
-}
-
-
-
-/**
- * Posts
- */
 .post-header {
   margin-bottom: $spacing-unit;
 }
