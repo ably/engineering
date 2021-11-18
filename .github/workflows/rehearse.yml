@@ -15,6 +15,7 @@ jobs:
       - name: Build Jekyll Site
         working-directory: docs
         run: |
+          bundle install
           bundle exec jekyll build
 
       - name: Temporary Validate Site Folder Created
