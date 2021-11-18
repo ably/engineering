@@ -7,6 +7,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      # Ruby version per https://pages.github.com/versions/
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+
       - name: Build Jekyll Site
         working-directory: docs
         run: |
