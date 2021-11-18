@@ -14,13 +14,14 @@ jobs:
         with:
           ruby-version: 2.7
 
+      # the baseurl supplied to Jekyll build must not include a trailing slash
       - name: Build Jekyll Site
         working-directory: docs
         env:
           PR_NUMBER: ${{ github.event.number }}
         run: |
           bundle install
-          bundle exec jekyll build --baseurl "/builds/ably/ably.github.io/pull/$PR_NUMBER/jekyll/"
+          bundle exec jekyll build --baseurl "/builds/ably/ably.github.io/pull/$PR_NUMBER/jekyll"
 
       - uses: ably/sdk-upload-action@v1
         with:

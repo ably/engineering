@@ -11,4 +11,4 @@ This site is incubating at the moment and we're still finding our feet in terms 
 ## Contents
 
 - Experts:
-    - [Expectations](/experts/expectations)
+    - [Expectations]({{ site.baseurl }}{% link experts/expectations.md %})
