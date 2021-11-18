@@ -23,6 +23,11 @@ These are typically held weekly.
 You must flag via Slack when you are running low on work.
 We'll then work with you to line up the next series of Jira tickets.
 
+Use your Slack bio to indicate clearly for other team members your usual working days and hours in UK timezone (GMT),
+keeping this information up-to-date if your availability changes.
+Something in this form would be perfect:
+"My usual working hours, UK time, are 14:00 to 19:00, Monday to Wednesday".
+
 ### Commitment, Order, Scope and Venue
 
 - Commit to the minimum number of regular hours you have agreed with us
