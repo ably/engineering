@@ -16,9 +16,11 @@ jobs:
 
       - name: Build Jekyll Site
         working-directory: docs
+        env:
+          PR_NUMBER: ${{ github.event.number }}
         run: |
           bundle install
-          bundle exec jekyll build
+          bundle exec jekyll build --baseurl "/builds/ably/ably.github.io/pull/$PR_NUMBER/jekyll/"
 
       - uses: ably/sdk-upload-action@v1
         with:
