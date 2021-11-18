@@ -4,6 +4,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      deployments: write
     steps:
       - uses: actions/checkout@v2
 
@@ -18,5 +20,10 @@ jobs:
           bundle install
           bundle exec jekyll build
 
-      - name: Temporary Validate Site Folder Created
-        run: ls -al docs/_site
+      - uses: ably/sdk-upload-action@v1
+        with:
+          s3AccessKeyId: ${{ secrets.SDK_S3_ACCESS_KEY_ID }}
+          s3AccessKey: ${{ secrets.SDK_S3_ACCESS_KEY }}
+          sourcePath: docs/_site
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          artifactName: jekyll
