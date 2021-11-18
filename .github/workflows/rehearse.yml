@@ -19,4 +19,4 @@ jobs:
           bundle exec jekyll build
 
       - name: Temporary Validate Site Folder Created
-        run: ls -al _site
+        run: ls -al docs/_site
