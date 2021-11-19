@@ -1,7 +1,4 @@
----
-layout: page
-title: "Experts: Expectations"
----
+# Experts: Expectations
 
 ## Definitions
 
