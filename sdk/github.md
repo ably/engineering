@@ -19,9 +19,9 @@ This is the name of the file within the `.github/workflows` folder.
         - perform static analysis if available
         - run unit tests
         - generate code coverage reports from unit test runs if possible (probably uploaded as [artifacts](https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts))
-        - for Gradle Java projects this is ./gradlew check
+        - for Gradle Java projects this is `./gradlew check`
     - `emulate`:
-        - for Gradle Java projects this is ./gradlew connectedCheck
+        - for Gradle Java projects this is `./gradlew connectedCheck`
 
 ### Names
 
