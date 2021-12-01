@@ -3,6 +3,52 @@
 This document details how the SDK Team at Ably uses GitHub.
 The goal is to conform, where possible, so that as developers move from repository to repository the experience is predictable and unsurprising.
 
+## GitHub First
+
+On first inspection, for those granted access to Ably's internal systems, it can be a little bit confusing that we have two ticket / issue management systems in concurrent use for our client libraries (GitHub issues and Jira).
+They complement each other and this page aims to explain why.
+
+One of our key company [values](https://ably.com/blog/ably-values) is being **open for all**.
+Our client library codebases align with this value as they are open source, available to view in every detail in the public domain.
+
+### GitHub...
+
+Allows external parties to contribute by:
+
+- creating issues for bugs they’ve found or enhancements they would like to see
+- creating pull requests to fix bugs or suggest improvements
+- commenting on issues and pull requests
+- reacting to comments
+- starring our repositories
+- watching our repositories
+- forking our repositories
+
+Allows us to:
+
+- work on fixing bugs and writing enhancements in the public domain using pull requests, for all to see
+- communicate our desires and known bugs and limitations by way of issues
+
+### Jira...
+
+Used for internal management.
+
+GitHub issues are [bidirectionally synchronised with Jira](https://ably.atlassian.net/wiki/spaces/DEL/pages/996114441).
+
+Jira allows us to add internal meta-information beyond what GitHub issues allow us to - this includes:
+
+- backlog prioritisation
+- status (todo > in progress > in review > done; etc..)
+
+### ...GitHub first!
+
+Generally the following operations should be performed from GitHub, not Jira:
+
+- creating issues
+- commenting on issues
+
+The primary reason is that this uses your real GitHub identity to associate with the operation from a public domain perspective.
+Operations done from Jira sync over to GitHub using a bot account and that looks ugly and awkward for external viewers.
+
 ## Workflows
 
 ### Filenames
