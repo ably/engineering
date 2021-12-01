@@ -49,6 +49,16 @@ Generally the following operations should be performed from GitHub, not Jira:
 The primary reason is that this uses your real GitHub identity to associate with the operation from a public domain perspective.
 Operations done from Jira sync over to GitHub using a bot account and that looks ugly and awkward for external viewers.
 
+## Pull Requests
+
+We have a few locations where standards and best practices have been captured - however they’re not necessarily always reflecting current practices on the SDK Team, in particular where we're working in open source.
+
+This section is intended as a canonical reference documenting how the SDK Team processes pull requests in the public domain / open source.
+
+- All PRs should be approved by at least one SDK Team member who maintains that client library
+- Ideally, in most cases, PRs should be landed (merged) to the `main` branch by the Lead Engineer responsible for that client library
+- Avoid publishing comments into that public domain that just represent housekeeping or reminders to other team members - these should more appropriately be handled as internal messaging over Slack (probably via the appropriate SDK repository channel)
+
 ## Workflows
 
 This section describes our ways of working with GitHub workflows.
