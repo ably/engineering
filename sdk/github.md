@@ -51,6 +51,11 @@ Operations done from Jira sync over to GitHub using a bot account and that looks
 
 ## Workflows
 
+This section describes our ways of working with GitHub workflows.
+
+GitHub documents them under the umbrella of GitHub Actions, which has resulted in 'Actions' somewhat incorrectly being adopted as the all-encompassing title for this technology.
+The reality is that an Action is _just_ a component of this technology stack, a thing that is downloaded and invoked by workflows (see [`jobs.<job_id>.steps[*].uses` in the syntax for workflows](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepsuses)).
+
 ### Filenames
 
 This is the name of the file within the `.github/workflows` folder.
