@@ -60,9 +60,11 @@ Operations done from Jira sync over to GitHub using a bot account and that looks
 
 ## Pull Requests
 
-We have a few locations where standards and best practices have been captured - however they’re not necessarily always reflecting current practices on the SDK Team, in particular where we're working in open source.
+### Overview
 
-This section is intended as a canonical reference documenting how the SDK Team processes pull requests in the public domain / open source.
+We have a few locations where standards and best practices have been captured - however they rarely reflect our current practices on the SDK Team, in particular where we're working in open source.
+
+This section is intended as a canonical reference documenting how the SDK Team prefers to process pull requests in the public domain / open source.
 
 - All PRs should be approved by at least one SDK Team member who maintains that client library
 - Ideally, in most cases, PRs should be landed (merged) to the `main` branch by the Lead Engineer responsible for that client library
