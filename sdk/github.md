@@ -1,4 +1,4 @@
-# GitHub Standards and Best Practices
+# Ably SDK Team: GitHub Standards and Best Practices
 
 This document details how the SDK Team at Ably uses GitHub.
 The goal is to conform, where possible, so that as developers move from repository to repository the experience is predictable and unsurprising.

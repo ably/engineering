@@ -1,4 +1,4 @@
-# Git Standards and Best Practices
+# Ably SDK Team: Git Standards and Best Practices
 
 This page contains notes specific to how we’re using Git with our open source (public) repositories as managed by the SDK Team.
 There is more generic guidance [elsewhere](https://engineering.ably.com/wiki/spaces/PUB/pages/803766465/Ably+Development+Best+Practice), however anything noted in this page should take preference for client library work.

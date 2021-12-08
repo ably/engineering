@@ -1,4 +1,4 @@
-# Coding Standards
+# Ably SDK Team: Coding Standards
 
 Our preference on the SDK Team is not to publish and attempt to keep maintained code standard documents that are designed to be purely human readable.
 The modern approach to conforming code formatting is to use linters and the modern approach to spotting structural issues is to use static analysis.
