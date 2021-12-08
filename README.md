@@ -9,7 +9,7 @@ This repository is being incubated by the SDK Team at Ably as our new, open home
 ## Contents
 
 - [Experts: Expectations](experts/expectations.md)
-- SDK Team Standards and Best Practices:
+- [SDK Team Standards and Best Practices](sdk/):
     - [Coding Standards](sdk/coding-standards.md)
     - [Git](sdk/git.md)
     - [GitHub](sdk/github.md)
