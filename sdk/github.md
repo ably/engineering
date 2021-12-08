@@ -156,6 +156,29 @@ tied in with the [SDK Upload Action](https://github.com/ably/sdk-upload-action).
 We are slowly converging on a set of labels that are useful for our context and these are being duplicated across client libraries when needed.
 This list is canonically defined [here](https://github.com/ably/ably-common/blob/main/github/labels.yml).
 
+## Flexibility
+
+### What things we're flexible about
+
+Things that the Ably SDK Team, in the open source work that we facilitate, _intentionally_ **don't** require contributors to do:
+
+- Format commit messages in a particular style
+- Conform to a naming convention for feature branches
+
+### Why we're flexible about some things
+
+So, why do we leave some things flexible and up to individual preference?
+
+Primarily, as stated at the start of this page, we - as a team - learn from _experience_.
+This means that there are things we end up converging on, as best practices or standards, because they've been shown to be sensible things to do in order to enable our work to progress productively and predictably for everybody involved.
+We, therefore, feel it's worthwhile sharing those things as standards and best practices on this page.
+
+However, conversely, there are things that - again, based on our experience - haven't been shown to matter that much.
+More often, it turns out that many of these things are somewhat subjective in nature.
+We don't feel it's necessary to mandate rules or policies around these things as, on balance, we would prefer to tip the balance in these areas to allow individuals to express themselves with the work that they do in the way that they feel most comfortable.
+
+We're not machines. We're humans. Let's keep this fun!
+
 ## See Also
 
 - [Ably Repository Audit Tool](https://github.com/ably/repository-audit)
