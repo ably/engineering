@@ -6,6 +6,14 @@ _[Ably](https://ably.com) is the platform that powers synchronized digital exper
 
 This repository is being incubated by the SDK Team at Ably as our new, open home for communicating our ways of working.
 
+## Contents
+
+- [Experts: Expectations](experts/expectations.md)
+- SDK Team Standards and Best Practices:
+    - [Coding Standards](sdk/coding-standards.md)
+    - [Git](sdk/git.md)
+    - [GitHub](sdk/github.md)
+
 ## Why does this site exist?
 
 One of Ably’s core values is being “Open for all”.  We believe that when we’re open, we’re better collaborators, communicators and creators. Whether open source, standards, or protocols, open hearts, minds, and eyes. It’s better when it’s open.
