@@ -1,0 +1,13 @@
+{
+  "name": "ably-engineering",
+  "version": "1.0.0",
+  "description": "Documentation communicating our ways of working, in particular in respect of open source software development.",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\""
+  },
+  "repository": "ably/engineering",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "markdownlint-cli2": "^0.3.2"
+  }
+}
