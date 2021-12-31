@@ -4,6 +4,8 @@ _[Ably](https://ably.com) is the platform that powers synchronized digital exper
 
 ## Overview
 
+[![Check](https://github.com/ably/engineering/actions/workflows/check.yaml/badge.svg)](https://github.com/ably/engineering/actions/workflows/check.yaml)
+
 This repository is being incubated by the SDK Team at Ably as our new, open home for communicating our ways of working.
 
 ## Contents
