@@ -31,7 +31,7 @@ We prefer to leave it up to individual developers to use the approach that works
   - Add new commits to address changes needed
 - The **Rebase** Approach:
   - Rebase all commits atop the target (base) branch when that target moves
-  - Modify commits already in the pull request to address changes needed (squish, force push)
+  - Modify commits already in the pull request to address changes needed (squash, force push)
 
 There are advantages in both approaches.
 The pull request author should lead in respect of deciding which approach to use for any particular pull request,
