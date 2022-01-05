@@ -9,7 +9,7 @@ The standards and best practices documented on this page are intended to be:
   - We work daily with contributors from all sorts of backgrounds - experience and daily context differ from person to person, so it's not helpful to require people to read loads of text in order to start working with us
   - Where something is _really_ important to us then we'll put in place a mechanism that automatically checks it (e.g. tests or a lint tool) - this generally enables us to avoid [bike-shedding](https://en.wikipedia.org/wiki/Law_of_triviality)
 - Interpreted as _guidance_, based on our experience as a team:
-  - These are not policies or rules - yes, deviation _might__ be frowned upon by others, but equally experimentation can lead to innovation - we are agile and need to iterate and evolve
+  - These are not policies or rules - yes, deviation _might_ be frowned upon by others, but equally experimentation can lead to innovation - we are agile and need to iterate and evolve
   - We should be as inclusive as possible, therefore we all accept that 'life happens' and deviation from 'the norm' is acceptable
 
 ## GitHub First
