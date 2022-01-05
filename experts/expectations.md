@@ -30,7 +30,7 @@ Something in this form would be perfect:
 - Commit to the minimum number of regular hours you have agreed with us
 - Work on Jira tickets only, in priority order
 - Update them with comments and by moving them across columns
-- Where you're working on something open source, prefer to interact with linked issues via GitHub's interface - this 'Github First' approach is important to some teams (for example, the SDK Team)
+- Where you're working on something open source, prefer to interact with linked issues via GitHub's interface - this 'GitHub First' approach is important to some teams (for example, the SDK Team)
 
 ## Ably's Responsibilities
 
