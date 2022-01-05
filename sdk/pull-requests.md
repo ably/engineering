@@ -56,7 +56,7 @@ We don't want to be overly prescriptive when it comes to defining a naming conve
 
 There are differing opinions on how commit messages should be structured.
 
-There are also differing opinions as to how important it is to have a 'great' conformed commit message structure (generally for historical purposes).
+There are also differing opinions as to how important it is to have a 'great' conformed commit message structure (relating to commit history and the ability for us to be able to perform archaeology on it in the future).
 The definition of 'great' will vary from person to person, so our preference is to err on the side of flexibility and allow individuals to structure their commit messages in the way that they feel most comfortable working.
 
 That said, there are still a few fundamental things which we think should be common to all good commit messages:
