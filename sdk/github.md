@@ -58,6 +58,11 @@ Generally the following operations should be performed from GitHub, not Jira:
 The primary reason is that this uses your real GitHub identity to associate with the operation from a public domain perspective.
 Operations done from Jira sync over to GitHub using a bot account and that looks ugly and awkward for external viewers.
 
+## Repository Names
+
+The convention at Ably is to name repositories in the `ably` GitHub org that contain the source code for a client library / SDK with an `ably-` prefix.
+For example, `ably/ably-js`, where `ably` is the org and `ably-js` is the repository name.
+
 ## Pull Requests
 
 See [Pull Requests](pull-requests.md) for guidance around how we work on PRs in open source.
