@@ -111,10 +111,6 @@ on:
       - main
 ```
 
-_We do have one repository which is experimenting with cron schedule (see [here](https://github.com/ably/ably-flutter/blob/36b604fdaed87342edc2fd0c9ad94c34d362148d/.github/workflows/check.yaml#L6)) but this is an exception and should not be adopted elsewhere without wider conversation and consideration._
-_It’s debatable whether periodic testing of codebases should be configured at repository level - or if it is done there then perhaps it should be a discrete workflow._
-_It adds a lot of noise with little obvious benefit._
-
 ### Job Names
 
 This one’s a work in progress at the moment.
