@@ -6,7 +6,7 @@ This document is intended as a canonical reference documenting how the SDK Team 
 
 - It is _just_ guidance and we acknowledge that there are all sorts of reasons why individuals (people, repositories, units of work, whatever!) may need to deviate from what's laid out here (see [GitHub: Flexibility](github.md#flexibility))
 - It should be read alongside wider guidance, standards and best practices defined by us for [Git](git.md) and [GitHub](github.md)
-- Where the words 'must', 'should' and 'may' are used (with or without 'not') then they should be interpreted per [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119) for the avoidance of doubt - as such, cleary, flexibility and deviation from statements specifying 'must' should be carefully considered!
+- Where the words 'must', 'should' and 'may' are used (with or without 'not') then they should be interpreted per [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119) for the avoidance of doubt - as such, flexibility and deviation from statements specifying 'must' should be carefully considered!
 
 ## General
 
