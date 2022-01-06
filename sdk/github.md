@@ -127,6 +127,10 @@ This is the name of the file within the `.github/workflows` folder.
     - examples:
       [ably-asset-tracking-android](https://github.com/ably/ably-asset-tracking-android/blob/main/.github/workflows/publish.yml),
       [ably-common](https://github.com/ably/ably-common/blob/main/.github/workflows/publish.yml)
+  - `report`:
+    - generates reports on the code and/or build which are ancillary to the core product build
+    - example:
+      [ably-js](https://github.com/ably/ably-js/blob/main/.github/workflows/bundle-report.yml) [to be renamed]
 
 ### Names
 
