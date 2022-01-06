@@ -111,8 +111,15 @@ This is the name of the file within the `.github/workflows` folder.
       [ably-asset-tracking-android](https://github.com/ably/ably-asset-tracking-android/blob/main/.github/workflows/emulate.yml)
   - `integration-test`:
     - run time consuming integration tests
+    - may use a matrix strategy to run tests across different runtime variants (e.g. by type or version)
+    - may have a arbitrarily named suffix specific to a particular runtime variant or set of runtime variants:
+      - delimited by a dash (`-`)
+      - this means that multiple workflow files can have the prefix `integration-test-`
+      - this approach is sometimes preferable to putting all tests in a matrix in a single workflow due to a limitation in GitHub's interface where all jobs have to be triggered to start, or re-run, for any single one of them to run (meaning unnecessary overhead when only one suite is failing)
     - example:
-      [ably-java](https://github.com/ably/ably-java/blob/main/.github/workflows/integration-test.yml)
+      [ably-java](https://github.com/ably/ably-java/blob/main/.github/workflows/integration-test.yml),
+      [ably-js (node)](https://github.com/ably/ably-js/blob/main/.github/workflows/test-node.yml) [to be renamed],
+      [ably-js (playwright)](https://github.com/ably/ably-js/blob/main/.github/workflows/test-playwright.yml) [to be renamed]
   - `publish`:
     - builds and then pushes the built product out to external package distribution repository(s)
     - must be a manually triggered workflow
