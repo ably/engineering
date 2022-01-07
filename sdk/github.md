@@ -135,10 +135,27 @@ This is the name of the file within the `.github/workflows` folder.
 
 ### Names
 
-The `name` key, at the top of the workflow file, [is defined as optional](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#name).
-Given that most workflow files usually end up repeating the filename for this key, we’re not defining it in our workflow files.
+#### Name vs Filename
 
-_This does reduce repetition in the workflow source code files, but does have other impacts - for example in terms of status badge presentation, so we may change this policy at some point._
+The root `name` key, typically defined at the top of the workflow file, should match the file name with:
+
+- Dashes replaced with spaces
+- The first letter of each word capitalised
+- Dashes preceding a variant suffix replaces by a colon and a space (`': '`)
+
+Examples:
+
+- `Check` for `check.yaml`
+- `Integration Test` for `integration-test.yaml`
+- `"Integration Test: Node"` for `integration-test-node.yaml` (double quotes needed in this case for YAML to specify a string definition)
+
+#### Some History re Workflow Names
+
+The `name` key, at the top of the workflow file, [is defined as optional](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#name).
+
+When we started using workflows, we took the decision to take advantage of this optionality and not define the root `name` for workflow files, due to the fact that it generally seemed to just repeat the name of the file.
+More recently, we've come to realise that the GitHub user interface will use this name to represent workflows in a much more concise and human readable form.
+When omitted, the full path to the workflow is used and this is ugly (for example: as `.github/workflows/check.yaml` in the 'Actions' tab of a repository).
 
 ### Triggers (`on:`)
 
