@@ -83,14 +83,54 @@ This is the name of the file within the `.github/workflows` folder.
   - `assemble`:
     - build the project (archives / artifacts)
     - for Gradle Java projects this is `./gradlew assemble`
-  - `check` - for verification tasks, including:
+    - pushes artifacts, where logical, to `sdk.ably.com` (staging)
+  - `check` - for basic, quick verification tasks, including:
     - run linters
     - perform static analysis if available
     - run unit tests
     - generate code coverage reports from unit test runs if possible (probably uploaded as [artifacts](https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts))
     - for Gradle Java projects this is `./gradlew check`
+    - should not run time consuming integration tests
+    - examples:
+      [ably-asset-tracking-android](https://github.com/ably/ably-asset-tracking-android/blob/main/.github/workflows/check.yml),
+      [ably-java](https://github.com/ably/ably-java/blob/main/.github/workflows/check.yml),
+      [ably-js](https://github.com/ably/ably-js/blob/main/.github/workflows/check.yml),
+      [engineering](https://github.com/ably/engineering/blob/main/.github/workflows/check.yaml)
+  - `docs`:
+    - build API reference documentation from interface commentary
+    - should push artifacts to `sdk.ably.com` (staging)
+    - examples:
+      [ably-asset-tracking-android](https://github.com/ably/ably-asset-tracking-android/blob/main/.github/workflows/docs.yml),
+      [ably-asset-tracking-swift](https://github.com/ably/ably-asset-tracking-swift/blob/main/.github/workflows/docs.yml),
+      [ably-flutter](https://github.com/ably/ably-flutter/blob/main/.github/workflows/docs.yml)
   - `emulate`:
+    - runs tests, typically time consuming integration tests
+    - spawns an emulator to do the testing - typically Android or iOS
     - for Gradle Java projects this is `./gradlew connectedCheck`
+    - example:
+      [ably-asset-tracking-android](https://github.com/ably/ably-asset-tracking-android/blob/main/.github/workflows/emulate.yml)
+  - `integration-test`:
+    - run time consuming integration tests
+    - may use a matrix strategy to run tests across different runtime variants (e.g. by type or version)
+    - may have a arbitrarily named suffix specific to a particular runtime variant or set of runtime variants:
+      - delimited by a dash (`-`)
+      - this means that multiple workflow files can have the prefix `integration-test-`
+      - this approach is sometimes preferable to putting all tests in a matrix in a single workflow due to a limitation in GitHub's interface where all jobs have to be triggered to start, or re-run, for any single one of them to run (meaning unnecessary overhead when only one suite is failing)
+    - example:
+      [ably-java](https://github.com/ably/ably-java/blob/main/.github/workflows/integration-test.yml),
+      [ably-js (node)](https://github.com/ably/ably-js/blob/main/.github/workflows/test-node.yml) [to be renamed],
+      [ably-js (playwright)](https://github.com/ably/ably-js/blob/main/.github/workflows/test-playwright.yml) [to be renamed]
+  - `publish`:
+    - builds and then pushes the built product out to external package distribution repository(s)
+    - must be a manually triggered workflow
+    - should take version as input, so that it can run against a git tag (pushed as a prior step in the release process)
+    - examples:
+      [ably-asset-tracking-android](https://github.com/ably/ably-asset-tracking-android/blob/main/.github/workflows/publish.yml),
+      [ably-common](https://github.com/ably/ably-common/blob/main/.github/workflows/publish.yml)
+  - `report`:
+    - generates reports on the code and/or build which are ancillary to the core product build
+    - example:
+      [ably-js](https://github.com/ably/ably-js/blob/main/.github/workflows/bundle-report.yml) [to be renamed]
 
 ### Names
 
