@@ -141,7 +141,7 @@ The root `name` key, typically defined at the top of the workflow file, should m
 
 - Dashes replaced with spaces
 - The first letter of each word capitalised
-- Dashes preceding a variant suffix replaces by a colon and a space (`': '`)
+- Dashes preceding a variant suffix replaced by a colon and a space (`': '`)
 
 Examples:
 
