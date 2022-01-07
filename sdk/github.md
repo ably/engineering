@@ -79,6 +79,7 @@ The reality is that an Action is _just_ a component of this technology stack, a 
 This is the name of the file within the `.github/workflows` folder.
 
 - Should have a `yaml` extension
+- Should be all in lowercase
 - Should use one of our standard names unless they’re not suited. Standard names and their purposes are as follows:
   - `assemble`:
     - build the project (archives / artifacts)
