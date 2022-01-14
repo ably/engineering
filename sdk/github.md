@@ -15,7 +15,7 @@ The standards and best practices documented on this page are intended to be:
 ## GitHub First
 
 On first inspection, for those granted access to Ably's internal systems, it can be a little bit confusing that we have two ticket / issue management systems in concurrent use for our client libraries (GitHub issues and Jira).
-They complement each other and this page aims to explain why.
+They complement each other and this section aims to explain why.
 
 One of our key company [values](https://ably.com/blog/ably-values) is being **open for all**.
 Our client library codebases align with this value as they are open source, available to view in every detail in the public domain.
