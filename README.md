@@ -11,7 +11,7 @@ This repository is being incubated by the SDK Team at Ably as our new, open home
 ## Contents
 
 - [Experts: Expectations](experts/expectations.md)
-- [SDK Team Standards and Best Practices](sdk/):
+- [SDK Team Standards and Best Practices](sdk/)
 
 ## Why does this site exist?
 
