@@ -14,6 +14,34 @@ This document is intended as a canonical reference documenting how the SDK Team 
 - Ideally, in most cases, PRs should be landed (merged) to the `main` branch by the Lead Engineer responsible for that client library
 - Avoid publishing comments into that public domain that just represent housekeeping or reminders to other team members - these should more appropriately be handled as internal messaging over Slack (probably via the appropriate SDK repository channel)
 
+## Etiquette
+
+### Conversations
+
+- Conversations should be closed by the person who started them
+- If you do need to close a conversation on behalf of someone else then you should tag them in a new comment in that conversation thread stating that you are closing the conversation on their behalf, stating your reasons for doing that - valid reasons include:
+  - that person is known not to be available at the moment
+  - there is urgency and conversations need to be resolved so that the PR can be merged (required by branch protect rule for target branch)
+- For authors adopting [The Merge Approach](#flexible-regarding-merge-from-or-rebase-atop-target) to PR lifecycle event creation, it is really helpful to reviewers to keep your subsequent commits to the PR's underlying branch small and focussed so that you can directly link to the commit that resolves any given conversation in a comment in that conversation thread. Reviewers are often coming back into a PR completely out of context, so anything the author can do to help them understand the specific thing they need to look at to understand how the PR has evolved should be encouraged.
+
+### Pull Request State
+
+- The _Draft_ state should be used to indicate that a pull request is a work in progress
+- Pull requests should be marked _Ready for review_ only when the author is confident that the work is ready to be looked at by others - this is also the point at which reviews should be requested
+- Pull requests that are in _Draft_ state should generally not have reviewers assigned or reviews actively being requested
+- It is healthy and normal to move pull requests back to _Draft_ state during their lifespan - usually in response to the author becoming aware of more work needing to be done on them (e.g. due to reviewer feedback or because of CI failure)
+
+### Rule Bending
+
+Our protection rules for the default branch (`main`) across our SDK repositories enforce various requirements on pushes to that branch (a.k.a. pull requests being merged to there). These include:
+
+- threshold count of reviewer approvals matched
+- all conversations closed
+- all CI checks successful
+- contents is up-to-date with the target branch
+
+However, those in our GitHub org who have `Admin` permissions over any given repository can use that privilege to merge pull requests even if not all the rules defined have been satisfied. While it is recognised that there are, sometimes, pragmattic reasons for doing this - it should be avoided. If, however, as a last resort this override is used then the person landing the contravening pull request **must** write a comment on the pull request explaining their reasons.
+
 ## Merge vs Rebase
 
 ### Always Merge to Target
