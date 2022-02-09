@@ -19,7 +19,7 @@ This document is intended as a canonical reference documenting how the SDK Team 
 ### Conversations
 
 - Conversations should be closed by the person who started them
-- If you do need to close a conversation on behalf of someone else then you should tag them in a new comment in that conversation thread stating that you are closing the conversation on their behalf, stating your reasons for doing that - valid reasons include:
+- If you do need to close a conversation on behalf of someone else then you should tag them in a new comment in that conversation thread stating that you are closing the conversation on their behalf, detailing your reasons for doing that - valid reasons include:
   - that person is known not to be available at the moment
   - there is urgency and conversations need to be resolved so that the PR can be merged (required by branch protect rule for target branch)
 - For authors adopting [The Merge Approach](#flexible-regarding-merge-from-or-rebase-atop-target) to PR lifecycle event creation, it is really helpful to reviewers to keep your subsequent commits to the PR's underlying branch small and focussed so that you can directly link to the commit that resolves any given conversation in a comment in that conversation thread. Reviewers are often coming back into a PR completely out of context, so anything the author can do to help them comprehend the specific thing they need to look at to understand how the PR has evolved should be encouraged.
