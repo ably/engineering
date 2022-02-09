@@ -40,7 +40,7 @@ Our protection rules for the default branch (`main`) across our SDK repositories
 - all CI checks successful
 - contents is up-to-date with the target branch
 
-However, those in our GitHub org who have `Admin` permissions over any given repository can use that privilege to merge pull requests even if not all the rules defined have been satisfied. While it is recognised that there are, sometimes, pragmattic reasons for doing this - it should be avoided. If, however, as a last resort this override is used then the person landing the contravening pull request **must** write a comment on the pull request explaining their reasons.
+However, those in our GitHub org who have `Admin` permissions over any given repository can use that privilege to merge pull requests even if not all the rules defined have been satisfied. While it is recognised that there are, sometimes, pragmatic reasons for doing this - it should be avoided. If, however, as a last resort this override is used then the person landing the contravening pull request **must** write a comment on the pull request explaining their reasons.
 
 ## Merge vs Rebase
 
