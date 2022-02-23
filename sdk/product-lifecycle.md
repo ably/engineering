@@ -4,7 +4,9 @@ Two preliminary lifecycle stages - Alpha and Beta - are designed to ensure that 
 
 See [Semantic Versioning (SemVer)](https://semver.org/) in respect of the terminology used in this document, specifically "Pre-Release Version Suffix".
 
-## Labs
+## Pre-Releases
+
+### Labs
 
 **Experimental features we do not support but may be evolved or removed depending on demand.**
 
@@ -18,7 +20,7 @@ No SLAs apply to Alpha releases. We strongly recommend using Alpha software feat
 
 **Pre-Release Version Suffix:** `-alpha.x`
 
-## Beta
+### Beta
 
 **Beta products are made publicly available for testing piloting by a broader group of customers.**
 
@@ -28,7 +30,7 @@ Customers using the beta version should be aware that some outstanding issues ma
 
 **Pre-Release Version Suffix:** `-beta.x`
 
-## Release Candidate
+### Release Candidate
 
 **Release candidate product is supposed to be fully functional with a minimum number of  known issues and ready to be released after internal testing.**
 
