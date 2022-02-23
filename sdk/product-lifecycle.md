@@ -4,6 +4,8 @@ Two preliminary lifecycle stages - Alpha and Beta - are designed to ensure that 
 
 See [Semantic Versioning (SemVer)](https://semver.org/) in respect of the terminology used in this document, specifically "Pre-Release Version Suffix".
 
+The Pre-Release `<build>` component should always be a positive integer value.
+
 ## Pre-Releases
 
 ### Labs
@@ -18,7 +20,9 @@ These products will be Demo-able, work end-to-end but have limitations in functi
 
 No SLAs apply to Alpha releases. We strongly recommend using Alpha software features in test environments only to avoid introducing risk to production deployments because we can’t guarantee that Alpha product works as specified and from build to build some breaking changes may be introduced.  
 
-**Pre-Release Version Suffix:** `-alpha.x`
+**Pre-Release Version Suffix:** `-alpha.<build>`
+
+**GitHub Release Title format:** `<major>.<minor>.<patch>, Alpha <build>`
 
 ### Beta
 
@@ -28,7 +32,9 @@ Beta releases are _more_ feature complete and stable than Alpha releases, close 
 
 Customers using the beta version should be aware that some outstanding issues may be present and consistency of interfaces are not guaranteed (i.e. behaviors and APIs may still change). Documentation will be present, but will evolve as the Engineering team addresses bugs and makes improvements in anticipation of Release.
 
-**Pre-Release Version Suffix:** `-beta.x`
+**Pre-Release Version Suffix:** `-beta.<build>`
+
+**GitHub Release Title format:** `<major>.<minor>.<patch>, Beta <build>`
 
 ### Release Candidate
 
@@ -38,7 +44,9 @@ This version is fully feature complete and stable, will not be changed in terms 
 
 Release Candidate may be a subject to SLAs in some cases.
 
-**Pre-Release Version Suffix:** `-rc.x`
+**Pre-Release Version Suffix:** `-rc.<build>`
+
+**GitHub Release Title format:** `<major>.<minor>.<patch>, Release Candidate <build>`
 
 ## General Availability (Release)
 
