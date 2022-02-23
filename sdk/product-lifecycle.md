@@ -4,9 +4,9 @@ Two preliminary lifecycle stages - Alpha and Beta - are designed to ensure that 
 
 See [Semantic Versioning (SemVer)](https://semver.org/) in respect of the terminology used in this document, specifically "Pre-Release Version Suffix".
 
-The Pre-Release `<build>` component should always be a positive integer value.
-
 ## Pre-Releases
+
+The Pre-Release `<build>` component should always be a positive integer value.
 
 ### Labs
 
