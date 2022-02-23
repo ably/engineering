@@ -12,7 +12,7 @@ The Pre-Release `<build>` component should always be a positive integer value.
 
 **Experimental features we do not support but may be evolved or removed depending on demand.**
 
-## Alpha or Technical Preview
+### Alpha or Technical Preview
 
 **Alpha products are for early testing and validation by a small and limited group of customers.**
 
