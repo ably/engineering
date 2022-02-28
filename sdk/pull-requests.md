@@ -10,7 +10,7 @@ This document is intended as a canonical reference documenting how the SDK Team 
 
 ## General
 
-- All PRs should be approved by at least one SDK Team member who maintains that client library
+- All PRs should be approved by at least two SDK Team members, where at least one of them actively maintains that client library
 - Ideally, in most cases, PRs should be landed (merged) to the `main` branch by the Lead Engineer responsible for that client library
 - Avoid publishing comments into that public domain that just represent housekeeping or reminders to other team members - these should more appropriately be handled as internal messaging over Slack (probably via the appropriate SDK repository channel)
 
