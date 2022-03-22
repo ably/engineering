@@ -50,10 +50,11 @@ Jira allows us to add internal meta-information beyond what GitHub issues allow 
 
 ### ...GitHub first!
 
-Generally the following operations should be performed from GitHub, not Jira:
+Generally the following operations should be performed from GitHub, not Jira (unless they are issues which solely exist in Jira):
 
 - creating issues
 - commenting on issues
+- closing issues
 
 The primary reason is that this uses your real GitHub identity to associate with the operation from a public domain perspective.
 Operations done from Jira sync over to GitHub using a bot account and that looks ugly and awkward for external viewers.
