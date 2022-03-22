@@ -25,7 +25,7 @@ Where technically possible, SDK repository release processes which claim to adhe
 - Named like `release/<version>`
 - Increment the version
 - Version should conform to [SemVer](https://semver.org/)
-- Add change log entry
+- Add change log entry (process to be documented under [#17](https://github.com/ably/engineering/issues/17))
 
 ## Publish Workflow
 
