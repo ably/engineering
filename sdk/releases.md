@@ -14,7 +14,7 @@ Where technically possible, SDK repository release processes which claim to adhe
 1. Merge all pull requests containing changes intended for this release to `main` branch
 2. Prepare a [Release Branch](#release-branch) and a corresponding pull request, obtain approval from reviewers and then merge to `main` branch
 3. Trigger the [Publish Workflow](#publish-workflow)
-4. If the publish fails then add commits to the `main` branch that aim to fix the problem and then try step 3 again
+4. If the publish fails then fix the state of the `main` branch, via one or more approved pull requests, with focussed changes that aim to fix the problem and then try step 3 again
 5. Push Git version tag, which may or may not have a `v` prefix according to the existing conventions for this SDK repository
 6. Create GitHub release
 
