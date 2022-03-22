@@ -22,7 +22,7 @@ Where technically possible, SDK repository release processes which claim to adhe
 
 - Branch from the `main` branch
 - Merge to the `main` branch, once approved
-- Named liked `release/<version>`
+- Named like `release/<version>`
 - Increment the version
 - Version should conform to [SemVer](https://semver.org/)
 - Add change log entry
