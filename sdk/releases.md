@@ -30,7 +30,7 @@ Where technically possible, SDK repository release processes which claim to adhe
 ## Publish Workflow
 
 - Run in GitHub environment
-- Be manually triggered using a [`workflow_dispatch` event](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch)
+- Be written so that it is manually triggered using a [`workflow_dispatch` event](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch)
 - Override the default [checkout](https://github.com/actions/checkout) `ref` with a commit SHA supplied as in input to the triggering event, where that SHA will generally be `HEAD` of the `main` branch, at the point the [Release Branch](#release-branch) was merged
 - Publish to downstream package repositories using an Ably identity, not using an identity tied to an individual person in any way
 - Use GitHub repository secrets or ideally [GitHub OIDC](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) (ask [@lmars](https://github.com/lmars)), to securely manage the flow of credentials required to publish under the Ably identity
