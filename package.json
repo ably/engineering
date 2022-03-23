@@ -8,6 +8,6 @@
   "repository": "ably/engineering",
   "license": "Apache-2.0",
   "devDependencies": {
-    "markdownlint-cli2": "^0.3.2"
+    "markdownlint-cli2": "^0.4.0"
   }
 }
