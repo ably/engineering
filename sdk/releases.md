@@ -20,20 +20,23 @@ Where technically possible, SDK repository release processes which claim to adhe
 
 ## Release Branch
 
-- Branch from the `main` branch
-- Merge to the `main` branch, once approved
-- Named like `release/<version>`
-- Increment the version
-- Version should conform to [SemVer](https://semver.org/)
-- Add change log entry (process to be documented under [#17](https://github.com/ably/engineering/issues/17))
+Should:
+
+- branch from the `main` branch
+- merge to the `main` branch, once approved
+- be named like `release/<version>`
+- increment the version, conforming to [SemVer](https://semver.org/)
+- add a change log entry (process to be documented under [#17](https://github.com/ably/engineering/issues/17))
 
 ## Publish Workflow
 
-- Run in GitHub environment
-- Be written so that it is manually triggered using a [`workflow_dispatch` event](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch)
-- Override the default [checkout](https://github.com/actions/checkout) `ref` with a commit SHA supplied as in input to the triggering event, where that SHA will generally be `HEAD` of the `main` branch, at the point the [Release Branch](#release-branch) was merged
-- Publish to downstream package repositories using an Ably identity, not using an identity tied to an individual person in any way
-- Use GitHub repository secrets or ideally [GitHub OIDC](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) (ask [@lmars](https://github.com/lmars)), to securely manage the flow of credentials required to publish under the Ably identity
+Should:
+
+- run in the GitHub environment
+- be written so that it is manually triggered using a [`workflow_dispatch` event](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch)
+- override the default [checkout](https://github.com/actions/checkout) `ref` with a commit SHA supplied as in input to the triggering event, where that SHA will generally be `HEAD` of the `main` branch, at the point the [Release Branch](#release-branch) was merged
+- publish to downstream package repositories using an Ably identity, not using an identity tied to an individual person in any way
+- use GitHub repository secrets or ideally [GitHub OIDC](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) (ask [@lmars](https://github.com/lmars)), to securely manage the flow of credentials required to publish under the Ably identity
 
 ## Version Tag
 
