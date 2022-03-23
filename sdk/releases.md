@@ -34,7 +34,7 @@ Should:
 
 - run in the GitHub environment
 - be written so that it is manually triggered using a [`workflow_dispatch` event](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch)
-- override the default [checkout](https://github.com/actions/checkout) `ref` with a commit SHA supplied as in input to the triggering event, where that SHA will generally be `HEAD` of the `main` branch, at the point the [Release Branch](#release-branch) was merged
+- override the default [checkout](https://github.com/actions/checkout) `ref` with a commit SHA supplied as an input to the triggering event, where that SHA will generally be `HEAD` of the `main` branch, at the point the [Release Branch](#release-branch) was merged
 - publish to downstream package repositories using an Ably identity, not using an identity tied to an individual person in any way
 - use GitHub repository secrets or ideally [GitHub OIDC](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) (ask [@lmars](https://github.com/lmars)), to securely manage the flow of credentials required to publish under the Ably identity
 
