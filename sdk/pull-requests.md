@@ -14,6 +14,20 @@ This document is intended as a canonical reference documenting how the SDK Team 
 - Ideally, in most cases, PRs should be landed (merged) to the `main` branch by the Lead Engineer responsible for that client library
 - Avoid publishing comments into that public domain that just represent housekeeping or reminders to other team members - these should more appropriately be handled as internal messaging over Slack (probably via the appropriate SDK repository channel)
 
+### Considerations when adding reviewers
+Enforced number of approvals is based on that PR contains trivial changes. On any instance of a non-trivial change approval of more than one reviewer should be seeked. 
+While 'trivial changes' is a subjective matter, developers should use their own judgements. Some examples of trivial changes are:
+- Comment changes.
+- Non public function / class / variable renames.
+- Code formattings. 
+- A string literal, an error code where the change is well documented. Such as in a feature spec document.
+
+Any other changes to the code will benefit from reviews from more than one person. In some instances the number of reviewers should be increased. Some examples of such changes are:
+- Public API change.
+- Library struture changes. New modules, extensions, splits etc.
+- A change on a core algorithm. For example the way the library handles message queueing.  
+- An important architectural change. Internal communication architecture, message flow architecture, etc.
+
 ## Etiquette
 
 ### Conversations
