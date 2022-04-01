@@ -22,7 +22,12 @@ While 'trivial changes' is a subjective matter, developers should use their own 
 - Code formattings. 
 - A string literal, an error code where the change is well documented. Such as in a feature spec document.
 
-Any other changes to the code will benefit from reviews from more than one person. In some instances the number of reviewers should be increased. Some examples of such changes are:
+Any other changes to the code will benefit from reviews from more than one person. Some example changes that are not trivial are:
+- Bug fixes.
+- Change, Addition or deletion of functions, classes, variables, etc. 
+- Refactorings. 
+
+In some instances the number of reviewers should be increased to more than two people. Some examples of such changes are:
 - Public API change.
 - Library struture changes. New modules, extensions, splits etc.
 - A change on a core algorithm. For example the way the library handles message queueing.  
