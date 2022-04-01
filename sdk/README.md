@@ -11,3 +11,4 @@
 | [Product Lifecycle](product-lifecycle.md) | Defines stages of product maturity, including Labs, Alpha, Beta, RC, GA and EOL. |
 | [Pull Requests](pull-requests.md) | Guidance for how we approach PRs. |
 | [Releases](releases.md) | Our ideal release process, including publishing workflows. |
+| [Versioning](versioning.md) | Our committment to semantically versioning all SDKs, as of 1 May 2022. |
