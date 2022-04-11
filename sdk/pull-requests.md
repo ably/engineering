@@ -21,16 +21,16 @@ This document is intended as a canonical reference documenting how the SDK Team 
 Enforced number of approvals is based on that PR contains trivial changes. On any instance of a non-trivial change approval of more than one reviewer should be sought.
 While 'trivial changes' is a subjective matter, developers should use their own judgements. Some examples of trivial changes are:
 
-- Comment changes.
-- Non public function / class / variable renames.
-- Code formattings. 
-- A string literal, an error code where the change is well documented. Such as in a feature spec document.
+- Comment changes
+- Non public function / class / variable renames
+- Code formattings
+- A string literal, an error code where the change is well documented - such as in a feature spec document
 
 Any other changes to the code will benefit from reviews from more than one person. Some example changes that are not trivial are:
 
-- Bug fixes.
-- Change, Addition or deletion of functions, classes, variables, etc. 
-- Refactorings. 
+- Bug fixes
+- Change, Addition or deletion of functions, classes, variables, etc
+- Refactorings
 
 In some instances the number of reviewers should be increased to more than two people. Some examples of such changes are:
 
