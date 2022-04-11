@@ -34,10 +34,10 @@ Any other changes to the code will benefit from reviews from more than one perso
 
 In some instances the number of reviewers should be increased to more than two people. Some examples of such changes are:
 
-- Public API change.
-- Library struture changes. New modules, extensions, splits etc.
-- A change on a core algorithm. For example the way the library handles message queueing.  
-- An important architectural change. Internal communication architecture, message flow architecture, etc.
+- Public API change
+- Library struture changes - such as new modules, extensions, splits, etc.
+- A change on a core algorithm - for example the way the library handles message queueing
+- An important architectural change - such as internal communication architecture, message flow architecture, etc.
 
 ### Conversations
 
