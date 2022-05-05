@@ -14,7 +14,7 @@ Published locations:
 
 To contribute to the Features Spec, clone the docs git repository from GitHub and:
 
-1. Follow the “Running locally” section from the README to run the docs site locally.
+1. Follow the “Quickstart” section from the docs repository README to run the docs site locally. Note that in addition to these instructions, you may also need to install a version manager for Ruby such as `asdf` to set the correct version of Ruby required by the docs site.
 2. Edit the Features Spec source file at `content/client-lib-development-guide/features.textile` and preview your changes locally.
 3. Once satisfied, open a pull request (see [Contributing to the Docs](https://github.com/ably/docs#contributing-to-the-docs))
 4. As part of landing a pull request that requires SDK changes, open issues in all client library repositories to indicate what’s changed in the specification and needs implementing in that client library. These issues need to be as verbose as possible and should refer back to related docs PRs.
