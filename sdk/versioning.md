@@ -10,6 +10,11 @@ including [Release Process](releases.md#release-process) adherance, however this
 
 Version increments to SDKs must conform to [Semantic Versioning 2.0.0](https://semver.org/).
 
+- Switching to semantic versioning is a breaking change to the way that we communicate the content of version increments to users, therefore SDKs should jump from version `1.2` (`major`: `1`; `minor`: `2`) to version `2` (`major`: `2`) at the point that they commit to conforming to semantic versioning
+- Up until that point, SDKs should continue to evolve in a non-breaking manner with `patch` releases on their `1.2` series - that is, those `patch` releases will continue to attract changes that are `minor` in nature, according to semantic versioning
+- SDKs should have no need to ever release a `1.3` series
+- The first release of a `2.0` series SDK must include breaking changes which represent user-facing value - that is, we will never 'bump' an SDK from `1.2.x` to `2.0.0` in order just to gain the benefit of adopting semantic versioning
+
 ## Features Specification and Protocol Versioning
 
 We will move the **Features Specification** from the **Client Library Development Guide** source code from the
