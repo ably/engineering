@@ -90,14 +90,23 @@ and that IAM role can be assumed by any GitHub Action running on the respective 
 This is typically used in conjunction with our own
 [ably/sdk-upload-action GitHub action](https://github.com/ably/sdk-upload-action).
 
-The AWS OIDC provider for GitHub and the AWS IAM roles are managed by Terraform within the `terraform/live/ably_sdk_aws/prod` directory of our internal `infrastrcuture` GitHub repository.
+The AWS OIDC provider for GitHub and the AWS IAM roles are managed by Terraform within the `terraform/live/ably_sdk_aws/prod` directory of our internal `infrastructure` GitHub repository.
 There is a Terraform file for each repository so that permissions can evolve for each repository separately.
+
+This step requires the `terraform-docs` tool. This can be installed by running:
+
+```bash
+asdf plugin-add terraform-docs https://github.com/looztra/asdf-terraform-docs
+```
+
+See [here](https://github.com/ably/infrastructure/tree/main/terraform#setup) for further information about working with Terraform in the `infrastructure` repository.
 
 To add permissions for a new SDK repository:
 
 - create a new Terraform file in `terraform/live/ably_sdk_aws/prod`
 - copy the resources from an existing file
 - modify the resources to have the correct repository name
+- update the README.md by running `terraform-docs markdown . > README.md`
 - commit and pull request the changes
 - once approved and merged, apply the change in Scalr (see [Scalr Guide (internal page)](https://ably.atlassian.net/wiki/spaces/ENG/pages/2147221592) if you don’t already have access to Scalr, ask to be assigned to the Scalr_SDK okta group)
 
