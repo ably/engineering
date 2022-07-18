@@ -117,7 +117,7 @@ The `ABLY_AWS_ACCOUNT_ID_SDK` GitHub organization secret should be added to the 
   uses: aws-actions/configure-aws-credentials@v1
   with:
     aws-region: eu-west-2
-    role-to-assume: arn:aws:iam::${{ secrets.ABLY_AWS_ACCOUNT_ID_SDK }}:role/ably-sdk-builds-ably-flutter
+    role-to-assume: arn:aws:iam::${{ secrets.ABLY_AWS_ACCOUNT_ID_SDK }}:role/ably-sdk-builds-THE_REPO_NAME_FROM_THE_TERRAFORM_MODULE
     role-session-name: "${{ github.run_id }}-${{ github.run_number }}"
 ```
 
