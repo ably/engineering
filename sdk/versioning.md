@@ -17,9 +17,9 @@ Version increments to SDKs must conform to [Semantic Versioning 2.0.0](https://s
 
 ## Features Specification and Protocol Versioning
 
-We will move the **Features Specification** from the **Client Library Development Guide** source code from the
-[`ably/docs` repository](https://github.com/ably/docs) to the [`ably/ably-common` repository](https://github.com/ably/ably-common),
-where it will be versioned alongside the core Ably service protocol definitions.
+We will move the **Features Specification** from the **Client Library Development Guide** source code in the
+[`ably/docs` repository](https://github.com/ably/docs) to the [`ably/specification` repository](https://github.com/ably/specification) (under https://github.com/ably/specification/issues/1),
+where it will be versioned alongside the core Ably service protocol definitions (see https://github.com/ably/specification/issues/2).
 
 _This work is yet to be undertaken. Once it's been completed then this document will be updated to reflect that._
 
