@@ -6,5 +6,8 @@ config:
   # This prevents use of "..." and "!" at the end of headings, where they are useful and expressive.
   no-trailing-punctuation: false
 
-  # In our GitHub First context, it's very normal to include GitHub issue URLs 'bare' so GitHub formats them nicely for us
+  # In our GitHub First context, it's very normal to include GitHub issue URLs 'bare' so GitHub formats them nicely for us.
   no-bare-urls: false
+
+  # The odd splash of 'raw' HTML in our markdown allows us to be more expressive (e.g. spans with coloured background).
+  no-inline-html: false

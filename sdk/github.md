@@ -205,8 +205,24 @@ tied in with the [SDK Upload Action](https://github.com/ably/sdk-upload-action).
 
 ## Labels
 
-We are slowly converging on a set of labels that are useful for our context and these are being duplicated across client libraries when needed.
-This list is canonically defined [here](https://github.com/ably/ably-common/blob/main/github/labels.yml).
+The following table canonically defines labels we use in common across our open source SDK repositories:
+
+| Name | Color | Description | Additional Notes |
+| ---- | ----------- | ----- | ---------------- |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #fbca04; color: black;">blocked-by-ably</span> | `fbca04` | We can't proceed until something under our direct control, in a different codebase, happens. | Comments should be added to indicate what the blockage is (e.g. another SDK repository). |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #fbca04; color: black;">blocked-by-external</span> | `fbca04` | We can't proceed until something outside of Ably's direct control happens. | Comments should be added to indicate what the blockage is. |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #d73a4a; color: white;">bug</span> | `d73a4a` | Something isn't working. It's clear that this does need to be fixed. | Usually implies that related changes can be released in a `patch` version bump. |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #ec4b42; color: white;">breaking</span> | `ec4b42` | Affects the developer experience when working in our codebase. | Implies a need to release related changes in a `major` version bump. |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #ff88cc; color: black;">code-quality</span> | `ff88cc` | Affects the developer experience when working in our codebase. |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #0075ca; color: white;">documentation</span> | `0075ca` | Improvements or additions to public interface documentation (API reference or readme). |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #a2eeef; color: black;">enhancement</span> | `a2eeef` | New feature or request. | Implies a need to release related changes in a `minor` version bump. |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #70fc6b; color: black;">example-app</span> | `70fc6b` | Relates to the example apps included in this repository. | Not all repositories have embedded example apps. |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #ff8888; color: black;">failing-test</span> | `ff8888` | Where a test is failing either locally or in CI. Perhaps flakey (badly written), wrong or bug. |
+| <span style="padding: 0.25em 0.75em; border-radius: 1em; font-weight: 500; white-space: nowrap; background-color: #ff8888; color: black;">testing</span> | `ff8888` | Includes all kinds of tests, the way that we run tests and test infrastructure. |
+
+While GitHub does allow us to use mixed case and spaces in label names, we've restricted ourselves to all lowercase and dashes instead of spaces to separate words.
+
+We do not have any labels that imply or otherwise infer importance or prioritisation of issues or pull requests because that information is internally managed using Jira (see [GitHub First](#github-first)).
 
 ## Flexibility
 
