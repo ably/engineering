@@ -220,6 +220,8 @@ The following table canonically defines labels we use in common across our open 
 | `failing-test` | ![ff8888](https://img.shields.io/badge/-ff8888-ff8888) | Where a test is failing either locally or in CI. Perhaps flakey (badly written), wrong or bug. |
 | `testing` | ![ff8888](https://img.shields.io/badge/-ff8888-ff8888) | Includes all kinds of tests, the way that we run tests and test infrastructure. |
 
+The _Name_, _Color_ and _Description_ values above should be used when creating the corresponding labels in repositories.
+
 While GitHub does allow us to use mixed case and spaces in label names, we've restricted ourselves to all lowercase and dashes instead of spaces to separate words.
 
 We do not have any labels that imply or otherwise infer importance or prioritisation of issues or pull requests because that information is internally managed using Jira (see [GitHub First](#github-first)).
