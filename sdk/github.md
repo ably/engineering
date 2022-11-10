@@ -215,7 +215,7 @@ The following table canonically defines labels we use in common across our open 
 | `breaking` | ![ec4b42](https://img.shields.io/badge/-ec4b42-ec4b42) | Backwards incompatible changes made to the public API. | Implies a need to release related changes in a `major` version bump. |
 | `code-quality` | ![ff88cc](https://img.shields.io/badge/-ff88cc-ff88cc) | Affects the developer experience when working in our codebase. | Relating to the maintainabily of the codebase, not affecting the public API, therefore unlikely to be customer facing. |
 | `documentation` | ![0075ca](https://img.shields.io/badge/-0075ca-0075ca) | Improvements or additions to public interface documentation (API reference or readme). |
-| `enhancement` | ![a2eeef](https://img.shields.io/badge/-a2eeef-a2eeef) | New feature or request. | Implies a need to release related changes in a `minor` version bump. |
+| `enhancement` | ![a2eeef](https://img.shields.io/badge/-a2eeef-a2eeef) | New feature or improved functionality. | Implies a need to release related changes in a `minor` version bump. |
 | `example-app` | ![70fc6b](https://img.shields.io/badge/-70fc6b-70fc6b) | Relates to the example apps included in this repository. | Not all repositories have embedded example apps. |
 | `failing-test` | ![ff8888](https://img.shields.io/badge/-ff8888-ff8888) | Where a test is failing either locally or in CI. Perhaps flakey (badly written), wrong or bug. |
 | `testing` | ![ff8888](https://img.shields.io/badge/-ff8888-ff8888) | Includes all kinds of tests, the way that we run tests and test infrastructure. |
