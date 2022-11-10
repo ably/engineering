@@ -222,6 +222,8 @@ The following table canonically defines labels we use in common across our open 
 
 The _Name_, _Color_ and _Description_ values above should be used when creating the corresponding labels in repositories.
 
+It is expected that some labels will be used together - for example `enhancement` and `breaking`, indicating a feature that's been added in a way that introduces backwards incompatible changes into the public API, therefore implying the need to release in a `major` (_not_ `minor`) version bump.
+
 While GitHub does allow us to use mixed case and spaces in label names, we've restricted ourselves to all lowercase and dashes instead of spaces to separate words.
 
 We do not have any labels that imply or otherwise infer importance or prioritisation of issues or pull requests because that information is internally managed using Jira (see [GitHub First](#github-first)).
