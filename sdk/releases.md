@@ -67,7 +67,7 @@ See: [GitHub Standards and Best Practices: Labels](github.md#labels)
 It should also include labels assigned to issues linked to those pull requests.
 
 "Public API" only refers to the interfaces that users code against to use our SDKs.
-Therefore, SDK changes to the Ably REST or Realtime protocol implementation do not always necessitate a `major` version bump - that is, those changes may not need to be labelled `breaking`, unless they _also_ change the user-facing APIs offered by the SDK in an backwards incompatible manner.
+Therefore, SDK changes to the Ably REST or Realtime protocol implementation do not always necessitate a `major` version bump - that is, those changes may not need to be labelled `breaking`, unless they _also_ change the user-facing APIs offered by the SDK in a backwards incompatible manner.
 
 ## Version Tag
 
