@@ -205,8 +205,28 @@ tied in with the [SDK Upload Action](https://github.com/ably/sdk-upload-action).
 
 ## Labels
 
-We are slowly converging on a set of labels that are useful for our context and these are being duplicated across client libraries when needed.
-This list is canonically defined [here](https://github.com/ably/ably-common/blob/main/github/labels.yml).
+The following table canonically defines labels we use in common across our open source SDK repositories:
+
+| Name | Color | Description | Additional Notes |
+| ---- | ----------- | ----- | ---------------- |
+| `blocked-by-ably` | ![fbca04](https://img.shields.io/badge/-fbca04-fbca04) | We can't proceed until something under our direct control, in a different codebase, happens. | Comments should be added to indicate what the blockage is (e.g. another SDK repository). |
+| `blocked-by-external` | ![fbca04](https://img.shields.io/badge/-fbca04-fbca04) | We can't proceed until something outside of Ably's direct control happens. | Comments should be added to indicate what the blockage is. |
+| `bug` | ![d73a4a](https://img.shields.io/badge/-d73a4a-d73a4a) | Something isn't working. It's clear that this does need to be fixed. | Usually implies that related changes can be released in a `patch` version bump. |
+| `breaking` | ![ec4b42](https://img.shields.io/badge/-ec4b42-ec4b42) | Backwards incompatible changes made to the public API. | Implies a need to release related changes in a `major` version bump. |
+| `code-quality` | ![ff88cc](https://img.shields.io/badge/-ff88cc-ff88cc) | Affects the developer experience when working in our codebase. | Relating to the maintainabily of the codebase, not affecting the public API, therefore unlikely to be customer facing. |
+| `documentation` | ![0075ca](https://img.shields.io/badge/-0075ca-0075ca) | Improvements or additions to public interface documentation (API reference or readme). |
+| `enhancement` | ![a2eeef](https://img.shields.io/badge/-a2eeef-a2eeef) | New feature or improved functionality. | Implies a need to release related changes in a `minor` version bump. |
+| `example-app` | ![70fc6b](https://img.shields.io/badge/-70fc6b-70fc6b) | Relates to the example apps included in this repository. | Not all repositories have embedded example apps. |
+| `failing-test` | ![ff8888](https://img.shields.io/badge/-ff8888-ff8888) | Where a test is failing either locally or in CI. Perhaps flakey, wrong or bug. |
+| `testing` | ![ff8888](https://img.shields.io/badge/-ff8888-ff8888) | Includes all kinds of tests, the way that we run tests and test infrastructure. |
+
+The _Name_, _Color_ and _Description_ values above should be used when creating the corresponding labels in repositories.
+
+It is expected that some labels will be used together - for example `enhancement` and `breaking`, indicating a feature that's been added in a way that introduces backwards incompatible changes into the public API, therefore implying the need to release in a `major` (_not_ `minor`) version bump.
+
+While GitHub does allow us to use mixed case and spaces in label names, we've restricted ourselves to all lowercase and dashes instead of spaces to separate words.
+
+We do not have any labels that imply or otherwise infer importance or prioritisation of issues or pull requests because that information is internally managed using Jira (see [GitHub First](#github-first)).
 
 ## Flexibility
 
