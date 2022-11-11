@@ -61,13 +61,16 @@ For clarity, conforming to semantic versioning, here are example version updates
 | Increment 'build' numeric component of pre-release suffix | `2.0.0-rc.1` | `2.0.0-rc.2` | We want to remain in pre-release and our level of confidence remains the same, we've just iterated/improved. |
 | Remove pre-release suffix | `2.0.0-rc.2` | `2.0.0` | We're ready to move to GA for this release. | | Has implications for scope of changelog entry. See [this comment](https://github.com/ably/engineering/issues/17#issuecomment-1310626521). |
 
-See: [GitHub Standards and Best Practices: Labels](github.md#labels)
-
 "Trigger" analysis must include labels assigned to pull requests.
 It should also include labels assigned to issues linked to those pull requests.
 
 "Public API" only refers to the interfaces that users code against to use our SDKs.
 Therefore, SDK changes to the Ably REST or Realtime protocol implementation do not always necessitate a `major` version bump - that is, those changes may not need to be labelled `breaking`, unless they _also_ change the user-facing APIs offered by the SDK in a backwards incompatible manner.
+
+See also:
+
+- [GitHub Standards and Best Practices: Labels](github.md#labels)
+- [Guidance on Versioning](versioning.md)
 
 ## Version Tag
 
