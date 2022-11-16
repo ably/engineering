@@ -224,6 +224,9 @@ The _Name_, _Color_ and _Description_ values above should be used when creating 
 
 It is expected that some labels will be used together - for example `enhancement` and `breaking`, indicating a feature that's been added in a way that introduces backwards incompatible changes into the public API, therefore implying the need to release in a `major` (_not_ `minor`) version bump.
 
+The `breaking` and `enhancement` labels must be applied to all pull requests to which they apply (see: [Guidance on Releases: Version Bump](releases.md#version-bump)).
+They can also be applied to linked issues, but this is less important than labelling the change itself (i.e. the pull request).
+
 While GitHub does allow us to use mixed case and spaces in label names, we've restricted ourselves to all lowercase and dashes instead of spaces to separate words.
 
 We do not have any labels that imply or otherwise infer importance or prioritisation of issues or pull requests because that information is internally managed using Jira (see [GitHub First](#github-first)).
