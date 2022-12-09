@@ -213,6 +213,7 @@ The following table canonically defines labels we use in common across our open 
 | `blocked-by-external` | ![fbca04](https://img.shields.io/badge/-fbca04-fbca04) | We can't proceed until something outside of Ably's direct control happens. | Comments should be added to indicate what the blockage is. |
 | `breaking` | ![ec4b42](https://img.shields.io/badge/-ec4b42-ec4b42) | Backwards incompatible changes made to the public API. | Implies a need to release related changes in a `major` version bump. |
 | `bug` | ![d73a4a](https://img.shields.io/badge/-d73a4a-d73a4a) | Something isn't working. It's clear that this does need to be fixed. | Usually implies that related changes can be released in a `patch` version bump. |
+| `build` | ![dcd0ff](https://img.shields.io/badge/-dcd0ff-dcd0ff) | Relates to the tooling used to build or release the contents of this repository. |
 | `code-quality` | ![ff88cc](https://img.shields.io/badge/-ff88cc-ff88cc) | Affects the developer experience when working in our codebase. | Relating to the maintainabily of the codebase, not affecting the public API, therefore unlikely to be customer facing. |
 | `documentation` | ![0075ca](https://img.shields.io/badge/-0075ca-0075ca) | Improvements or additions to public interface documentation (API reference or readme). |
 | `enhancement` | ![a2eeef](https://img.shields.io/badge/-a2eeef-a2eeef) | New feature or improved functionality. | Implies a need to release related changes in a `minor` version bump. |
