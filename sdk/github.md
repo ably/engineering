@@ -164,6 +164,7 @@ Unless there a good reason to deviate from this, workflows should always be conf
 
 ```yml
 on:
+  workflow_dispatch:
   pull_request:
   push:
     branches:
