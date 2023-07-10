@@ -21,6 +21,6 @@ As such, Ably will over time, where practicable, start publishing content that s
 
 We welcome input and feedback. Please do reach out.
 
-## Contributing
+## Contribu
 
 For guidance on how to contribute to this project, see [CONTRIBUTING.md](CONTRIBUTING.md).
