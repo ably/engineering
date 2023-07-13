@@ -1,8 +1,8 @@
-# Ably SDK Team: Glossary
+# Ably Engineering Team: Glossary
 
-Here we define terminology used by the SDK Team at Ably.
+Here we define terminology used by the Engineering Team at Ably.
 
-Some terms defined here are quite specified to the Ably context, or even the SDK development context.
+Some terms defined here are quite specified to the Ably context.
 Other terms are more generally understood in engineering circles, however we still see benefit in expanding on them here as there are often interpretations or pointers which this document can convey in order to add value for the reader.
 
 Our aim is to make this glossary as accessible as possible, which means making every effort to write definitions in such a way that they can be understood by individuals with varying levels of technical knowledge or capability.

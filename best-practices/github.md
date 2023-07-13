@@ -1,6 +1,6 @@
-# Ably SDK Team: GitHub Standards and Best Practices
+# Ably Engineering Team: GitHub Standards and Best Practices
 
-This document details how the SDK Team at Ably uses GitHub.
+This document details how the we use GitHub at Ably.
 The goal is to conform, where possible, so that as developers move from repository to repository the experience is predictable and unsurprising.
 
 The standards and best practices documented on this page are intended to be:
@@ -201,16 +201,16 @@ Pushing artifacts to [sdk.ably.com](http://sdk.ably.com/) (see [this internal pa
 
 The [docs repository](https://github.com/ably/docs) has been using these for a while, with its own naming convention for [environments](https://github.com/ably/docs/deployments).
 
-The SDK Team are also evolving a naming convention for environments. Initially modelled in [ably-flutter #92](https://github.com/ably/ably-flutter/pull/97),
+We are also evolving a naming convention for environments. Initially modelled in [ably-flutter #92](https://github.com/ably/ably-flutter/pull/97),
 tied in with the [SDK Upload Action](https://github.com/ably/sdk-upload-action).
 
 ## Labels
 
-The following table canonically defines labels we use in common across our open source SDK repositories:
+The following table canonically defines labels we use in common across our open source repositories:
 
 | Name | Color | Description | Additional Notes |
 | ---- | ----------- | ----- | ---------------- |
-| `blocked-by-ably` | ![fbca04](https://img.shields.io/badge/-fbca04-fbca04) | We can't proceed until something under our direct control, in a different codebase, happens. | Comments should be added to indicate what the blockage is (e.g. another SDK repository). |
+| `blocked-by-ably` | ![fbca04](https://img.shields.io/badge/-fbca04-fbca04) | We can't proceed until something under our direct control, in a different codebase, happens. | Comments should be added to indicate what the blockage is (e.g. another repository). |
 | `blocked-by-external` | ![fbca04](https://img.shields.io/badge/-fbca04-fbca04) | We can't proceed until something outside of Ably's direct control happens. | Comments should be added to indicate what the blockage is. |
 | `breaking` | ![ec4b42](https://img.shields.io/badge/-ec4b42-ec4b42) | Backwards incompatible changes made to the public API. | Implies a need to release related changes in a `major` version bump. |
 | `bug` | ![d73a4a](https://img.shields.io/badge/-d73a4a-d73a4a) | Something isn't working. It's clear that this does need to be fixed. | Usually implies that related changes can be released in a `patch` version bump. |
@@ -237,7 +237,7 @@ We do not have any labels that imply or otherwise infer importance or prioritisa
 
 ### What things we're flexible about
 
-Things that the Ably SDK Team, in the open source work that we facilitate, _intentionally_ **don't** require contributors to do:
+Things that the Ably Engineering Team, in the open source work that we facilitate, _intentionally_ **don't** require contributors to do:
 
 - Format commit messages in a particular style
 - Conform to a naming convention for feature branches

@@ -1,4 +1,4 @@
-# Ably SDK Team: `sdk.ably.com`
+# Ably Engineering Team: `sdk.ably.com`
 
 ## Introduction
 

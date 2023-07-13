@@ -1,4 +1,4 @@
-# Ably SDK Team: Features Specification
+# Ably Engineering Team: Features Specification
 
 ## Overview
 

@@ -1,8 +1,8 @@
-# Ably SDK Team: Guidance on Pull Requests
+# Ably Engineering Team: Guidance on Pull Requests
 
-We have a few locations where standards and best practices have been captured - however they rarely reflect our current practices on the SDK Team, in particular where we're working in open source.
+We have a few locations where standards and best practices have been captured - however they rarely reflect our current practices, in particular where we're working in open source.
 
-This document is intended as a canonical reference documenting how the SDK Team prefers to process pull requests in the public domain / open source:
+This document is intended as a canonical reference documenting how we prefer to process pull requests in the public domain / open source:
 
 - It is _just_ guidance and we acknowledge that there are all sorts of reasons why individuals (people, repositories, units of work, whatever!) may need to deviate from what's laid out here (see [GitHub: Flexibility](github.md#flexibility))
 - It should be read alongside wider guidance, standards and best practices defined by us for [Git](git.md) and [GitHub](github.md)
@@ -12,7 +12,7 @@ This document is intended as a canonical reference documenting how the SDK Team 
 
 - All PRs should be approved by at least one person who actively maintains that client library
 - Ideally, in most cases, PRs should be landed (merged) to the `main` branch by the Lead Engineer responsible for that client library
-- Avoid publishing comments into that public domain that just represent housekeeping or reminders to other team members - these should more appropriately be handled as internal messaging over Slack (probably via the appropriate SDK repository channel)
+- Avoid publishing comments into that public domain that just represent housekeeping or reminders to other team members - these should more appropriately be handled as internal messaging over Slack
 
 ## Etiquette
 
@@ -56,7 +56,7 @@ In some instances the number of reviewers should be increased to more than two p
 
 ### Rule Bending
 
-Our protection rules for the default branch (`main`) across our SDK repositories enforce various requirements on pushes to that branch (a.k.a. pull requests being merged to there). These include:
+Our protection rules for the default branch (`main`) across our repositories enforce various requirements on pushes to that branch (a.k.a. pull requests being merged to there). These include:
 
 - threshold count of reviewer approvals matched
 - all conversations resolved

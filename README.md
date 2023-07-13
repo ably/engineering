@@ -6,12 +6,12 @@ _[Ably](https://ably.com) is the platform that powers synchronized digital exper
 
 [![Check](https://github.com/ably/engineering/actions/workflows/check.yaml/badge.svg)](https://github.com/ably/engineering/actions/workflows/check.yaml)
 
-This repository is being incubated by the SDK Team at Ably as our new, open home for communicating our ways of working.
+This repository is owned by the Engineering team at Ably as our new, open home for communicating our ways of working.
 
 ## Contents
 
-- [Experts: Expectations](experts/expectations.md)
-- [SDK Team Standards and Best Practices](sdk/)
+- [Experts: Expectations](experts/)
+- [Standards and Best Practices](best-practices/)
 
 ## Why does this site exist?
 

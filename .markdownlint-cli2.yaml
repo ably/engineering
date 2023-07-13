@@ -8,3 +8,6 @@ config:
 
   # In our GitHub First context, it's very normal to include GitHub issue URLs 'bare' so GitHub formats them nicely for us.
   no-bare-urls: false
+
+  # This is a useful way to include expand sections in markdown.
+  no-inline-html: false
