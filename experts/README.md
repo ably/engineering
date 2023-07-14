@@ -2,7 +2,7 @@
 
 ## Contents
 
-| Page         | Synopsis                                       |
-|--------------|------------------------------------------------|
-| Expectations | Ably experts expectations and responsibilities |
-| FAQ          | Frequently asked questions                     |
+| Page                            | Synopsis                                       |
+|---------------------------------|------------------------------------------------|
+| [Expectations](expectations.md) | Ably experts expectations and responsibilities |
+| [FAQ](faq.md)                   | Frequently asked questions                     |
