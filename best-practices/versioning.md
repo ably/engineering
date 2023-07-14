@@ -1,4 +1,4 @@
-# Ably SDK Team: Guidance on Versioning
+# Ably Engineering Team: Guidance on Versioning
 
 This document outlines our approach for SDK release versioning.
 

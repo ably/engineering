@@ -1,4 +1,4 @@
-# Ably SDK Team: Guidance on Releases
+# Ably Engineering Team: Guidance on Releases
 
 This document outlines our ideal requirements for SDK releases.
 

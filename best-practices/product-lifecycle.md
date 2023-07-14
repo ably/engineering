@@ -1,4 +1,4 @@
-# Ably SDK Team: Product Lifecycle
+# Ably Engineering Team: Product Lifecycle
 
 Two preliminary lifecycle stages - Alpha and Beta - are designed to ensure that customers can safely start testing Ably's latest technology and provide us with early feedback. Then the products go into the Release, which indicates that they are ready for production.
 
