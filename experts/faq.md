@@ -3,24 +3,24 @@
 <details>
   <summary>What payment options do I have?</summary>
 
-* Bank Transfer
-* Revolut
+- Bank Transfer
+- Revolut
 
 </details>
 
 <details>
   <summary>What details should I include on the invoice?</summary>
 
-* Name / Company Name
-* From: Company Name / Individual & Address
-* To: Ably Realtime, 25 Luke Street, London, EC2A 4DS
-* Invoice Number
-* Invoice Date & Due Date / Terms
-* VAT Number (If applicable)
-* Description of work / Breakdown of work & Hours & Rate & Amount / Total
-* Total amount summarised at the bottom
-* Payment details
-* See here for an example invoice template.
+- Name / Company Name
+- From: Company Name / Individual & Address
+- To: Ably Realtime, 25 Luke Street, London, EC2A 4DS
+- Invoice Number
+- Invoice Date & Due Date / Terms
+- VAT Number (If applicable)
+- Description of work / Breakdown of work & Hours & Rate & Amount / Total
+- Total amount summarised at the bottom
+- Payment details
+- See here for an example invoice template.
 
 </details>
 
