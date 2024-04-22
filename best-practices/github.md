@@ -220,6 +220,7 @@ The following table canonically defines labels we use in common across our open 
 | `enhancement` | ![a2eeef](https://img.shields.io/badge/-a2eeef-a2eeef) | New feature or improved functionality. | Implies a need to release related changes in a `minor` version bump. |
 | `example-app` | ![70fc6b](https://img.shields.io/badge/-70fc6b-70fc6b) | Relates to the example apps included in this repository. | Not all repositories have embedded example apps. |
 | `failing-test` | ![ff8888](https://img.shields.io/badge/-ff8888-ff8888) | Where an automated test is failing either locally or in CI. Perhaps flakey, wrong or bug. |
+| `investigate` | ![9acd32](https://img.shields.io/badge/-9acd32-9acd32) | Requires further investigation to decide the most appropriate label(s). |
 | `testing` | ![ff8888](https://img.shields.io/badge/-ff8888-ff8888) | Includes all kinds of automated tests, the way that we run them and the infrastructure around them. |
 
 The _Name_, _Color_ and _Description_ values above should be used when creating the corresponding labels in repositories.
