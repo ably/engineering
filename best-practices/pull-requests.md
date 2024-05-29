@@ -30,9 +30,9 @@ In order for a PR to be merged, everyone who has been tagged as a reviewer must 
 
 ## PR scope and structure
 
-The scope and structure for a PR should be based on the guiding principles that apply to [commit and history structure](https://ably.atlassian.net/l/c/7QP1L31X): PRs should ideally cover a self-contained set of changes, with an overall scope that is large enough that the overall intent of the changes is clear, and small enough that it is manageable to be reviewed in detail. PRs that are too large tend to result in reviews that are more superficial and less effective.
+The scope and structure for a PR should be based on the guiding principles that apply to [commit and history structure](commits.md): PRs should ideally cover a self-contained set of changes, with an overall scope that is large enough that the overall intent of the changes is clear, and small enough that it is manageable to be reviewed in detail. PRs that are too large tend to result in reviews that are more superficial and less effective.
 
-The use of branches generally should follow the policy for [development flow](https://ably.atlassian.net/wiki/spaces/PUB/pages/803766520). If the changes being made are necessarily extensive, then the preferred way to structure the work is as a series of PRs made against an integration branch, so each individual PR remains a manageable size.
+The use of branches generally should follow the policy for [development flow](development-flow.md). If the changes being made are necessarily extensive, then the preferred way to structure the work is as a series of PRs made against an integration branch, so each individual PR remains a manageable size.
 
 Individual changes that impact a very large number of files (for example bulk application of a code style change, or renaming a widely used identifier) should be made as separate commits (or ideally separate PRs).
 
@@ -92,7 +92,7 @@ Changes that are made in response to PR reviews can include:
 The choice as to how to proceed principally rests with the author, and the actual choice should be made based on the goals of:
 
 - ensuring clarity for the reviewer(s);
-- ensuring that the final history meets the [goals for commit history](https://ably.atlassian.net/wiki/Git-best-practices).
+- ensuring that the final history meets the [goals for commit history](commits.md).
 
 Adding `!fixup` references allows the specific corrective changes to be seen clearly, and preserves the navigability of the original PR comments. However, depending on the nature and extent of the changes, `!fixup` commits can impair the reviewability of the PR overall - a reviewer may request that changes are consolidated into the actual proposed commits in this case. When this happens, a new branch and PR should be used referencing the old PR, explaining why a new PR is being used (what material change has been made) and the old PR should be closed.
 
@@ -100,7 +100,7 @@ Feedback and associated changes must be conducted to the satisfaction of the rev
 
 ## Merging PRs
 
-By default the author is expected to merge a PR once it is approved. Whether this is by merge or rebase is subject to considerations relating to the overall [flow and branching policy](https://ably.atlassian.net/wiki/Development-flow-for-Ably-repos).
+By default the author is expected to merge a PR once it is approved. Whether this is by merge or rebase is subject to considerations relating to the overall [flow and branching policy](development-flow.md).
 
 For certain repos - especially where there is a very broad scope, and contributions by multiple teams - it might be necessary that a maintainer, rather than the author, determines the order in which PRs are landed. It is the responsibility of the maintainers of those repos to define the policy for merging in such cases.
 
