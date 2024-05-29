@@ -32,7 +32,7 @@ In order for a PR to be merged, everyone who has been tagged as a reviewer must 
 
 The scope and structure for a PR should be based on the guiding principles that apply to [commit and history structure](commits.md): PRs should ideally cover a self-contained set of changes, with an overall scope that is large enough that the overall intent of the changes is clear, and small enough that it is manageable to be reviewed in detail. PRs that are too large tend to result in reviews that are more superficial and less effective.
 
-The use of branches generally should follow the policy for [development flow](https://ably.atlassian.net/wiki/spaces/PUB/pages/803766520). If the changes being made are necessarily extensive, then the preferred way to structure the work is as a series of PRs made against an integration branch, so each individual PR remains a manageable size.
+The use of branches generally should follow the policy for [development flow](development-flow.md). If the changes being made are necessarily extensive, then the preferred way to structure the work is as a series of PRs made against an integration branch, so each individual PR remains a manageable size.
 
 Individual changes that impact a very large number of files (for example bulk application of a code style change, or renaming a widely used identifier) should be made as separate commits (or ideally separate PRs).
 
@@ -100,7 +100,7 @@ Feedback and associated changes must be conducted to the satisfaction of the rev
 
 ## Merging PRs
 
-By default the author is expected to merge a PR once it is approved. Whether this is by merge or rebase is subject to considerations relating to the overall [flow and branching policy](https://ably.atlassian.net/wiki/Development-flow-for-Ably-repos).
+By default the author is expected to merge a PR once it is approved. Whether this is by merge or rebase is subject to considerations relating to the overall [flow and branching policy](development-flow.md).
 
 For certain repos - especially where there is a very broad scope, and contributions by multiple teams - it might be necessary that a maintainer, rather than the author, determines the order in which PRs are landed. It is the responsibility of the maintainers of those repos to define the policy for merging in such cases.
 
