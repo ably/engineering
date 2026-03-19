@@ -145,6 +145,16 @@ In body:
 Fixes #123, #124
 ```
 
+## AI-generated commits
+
+AI-generated commits — whether created directly by a coding agent or by a developer using AI-assisted tooling — are acceptable, but must follow the same guidance as any other commit in this document. The standards for coherence, atomicity, and commit message quality apply equally regardless of how the code was produced.
+
+Repositories should contain appropriate configuration (for example, in `CLAUDE.md` or agent skills) to help ensure that coding agents comply with these standards. In practice, coding agents generally follow commit policy guidance well when it is provided.
+
+Be aware that coding agents can generate large volumes of changes quickly, which can easily result in oversized or unfocused commits. If a coding agent has produced a large body of work, it is still important to ensure that the work is committed in logical, independently-reviewable chunks rather than as a single monolithic commit. Use interactive rebase or other tools to reshape the history if needed before requesting review.
+
+If a coding agent generated the content of a commit — whether or not it performed the commit itself — it is preferable that this is indicated in the commit message or the associated PR description. This helps reviewers understand the provenance of the changes and adjust their review approach accordingly.
+
 ### More information
 
 There is also good information in:
