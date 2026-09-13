@@ -153,8 +153,6 @@ Repositories should contain appropriate configuration (for example, in `CLAUDE.m
 
 Be aware that coding agents can generate large volumes of changes quickly, which can easily result in oversized or unfocused commits. If a coding agent has produced a large body of work, it is still important to ensure that the work is committed in logical, independently-reviewable chunks rather than as a single monolithic commit. Use interactive rebase or other tools to reshape the history if needed before requesting review.
 
-If a coding agent generated the content of a commit — whether or not it performed the commit itself — it is preferable that this is indicated in the commit message or the associated PR description. This helps reviewers understand the provenance of the changes and adjust their review approach accordingly.
-
 ### More information
 
 There is also good information in:
