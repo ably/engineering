@@ -153,6 +153,8 @@ Repositories should contain appropriate configuration (for example, in `CLAUDE.m
 
 Be aware that coding agents can generate large volumes of changes quickly, which can easily result in oversized or unfocused commits. If a coding agent has produced a large body of work, it is still important to ensure that the work is committed in logical, independently-reviewable chunks rather than as a single monolithic commit. Use interactive rebase or other tools to reshape the history if needed before requesting review.
 
+Commits can have side-effects arising from their commit message, such as by using "fixes" or "closes" assertions. We avoid using these keywords in commit messages and prefer to have those assertions in PR descriptions instead. Be aware that coding agents may include these assertions, and erroneously cause issues to be closed. Therefore, when reviewing AI-generated commits, take care to ensure that the commit message is appropriate, not just the code changes.
+
 ### More information
 
 There is also good information in:
